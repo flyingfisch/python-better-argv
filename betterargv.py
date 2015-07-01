@@ -21,4 +21,6 @@ def args():
 
     return args
 
-print(args())
+# run if not being imported as model
+if __name__ == "__main__":
+    print(args())
